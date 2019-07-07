@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="carview">CarView</string>
+    <string name="citytransformer">CityTransformer</string>
+    <string name="menu">menu</string>
+    <string name="battery">Battery:</string>
+    <string name="miles_left">miles left</string>
+    <string name="door">Door:</string>
+    <string name="lock">LOCK</string>
+    <string name="unlock">UNLOCK</string>
+    <string name="_208">208</string>
+    <string name="batteryIMG">Battery</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="gender">gender</string>
+    <string name="male">male</string>
+    <string name="sign_up">sign up</string>
+    <string name="age">age</string>
+    <string name="email">Email</string>
+    <string name="female">female</string>
+    <string name="Email">email</string>
+</resources>

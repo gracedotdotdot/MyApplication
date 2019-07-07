@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        tools:context=".MapsActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nearest charging site"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/tankName"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="add"
+            android:inputType="text"
+            android:textSize="25sp" />
+        <!--android:hint="@string/tankName"-->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/getPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#afeeee"
+            android:text="my site"
+            android:textSize="20sp"
+            tools:ignore="ButtonStyle" />
+        <!-- android:text="@string/getPosition"-->
+
+        <Button
+            android:id="@+id/nearest"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#FFDE2837"
+            android:text="Nearest"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            tools:ignore="ButtonStyle" />
+        <!--android:text="@string/_3dMap"-->
+        <Button
+            android:id="@+id/route"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#061779"
+            android:text="Route"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            tools:ignore="ButtonStyle" />
+        <!--android:text="@string/normalMap"-->
+
+
+        <Button
+            android:id="@+id/satelliteMap"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_dark"
+            android:text="RealView"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            tools:ignore="ButtonStyle" />
+        <!--android:text="@string/satelliteMap"-->
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
